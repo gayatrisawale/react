@@ -6,18 +6,21 @@ import Header from './Header.jsx'
 import TestImportExport, {TestImportExport2, TestImportExport3, conKey} from './TestImportExport.jsx'
 import VariableTest from './VariableTest.jsx'
 import Footer from './Footer.jsx'
+import JsxCurly from './JsxCurly.jsx'
+import FunctionTesting from './FunctionTesting.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <App />
-    <TestImportExport/>
-    <TestImportExport2/>
-    <TestImportExport3/>
-    <h1>{conKey}</h1>
-    <p>==============================</p>
-    <VariableTest/>
-    <Footer/>
+    <Header/>
+    <hr/><App/> 
+    <hr/><TestImportExport/>
+        <TestImportExport2/>
+        <TestImportExport3/>
+        <h5>{conKey}</h5>
+    <hr/><VariableTest/>
+    <hr/><JsxCurly/>
+    <hr/><FunctionTesting/>
+    <hr/><Footer/>
   
   </StrictMode>,
 )

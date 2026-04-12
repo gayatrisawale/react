@@ -1,8 +1,7 @@
 function Header(){
     return (
         <>
-        <div>Header File</div>
-        <p>Check it </p>
+        <div><h3>Header File</h3></div>
         </>
     )
 }

@@ -1,17 +1,16 @@
 function VariableTest(){
-
    var x=10;
    var y=20;
 
- return(
+   return(
    <>
-      <h1>Variable test</h1>
+      <h3>Variable test</h3>
       {/*this is variable with operation +, -*/}
-      <h1>Sum: {x+y} </h1>
+      <h3>Sum: {x+y} </h3>
       {/*This is function with if-elseCondion and switchCase*/}
-      <h1>Operation :  {testOperation(50, 5, '+')}</h1>
+      <h3>Operation :  {testOperation(50, 5, '+')}</h3>
    </> 
- );
+   );
 }
 
 function testOperation(a, b, op){
@@ -26,6 +25,10 @@ function testOperation(a, b, op){
       case '-':
          return (a-b);
          break;
+      case '*':
+         return (a*b);
+         break;
+         
       default:
          return "Invalid operation";   
    }
