@@ -8,10 +8,12 @@ import VariableTest from './VariableTest.jsx'
 import Footer from './Footer.jsx'
 import JsxCurly from './JsxCurly.jsx'
 import FunctionTesting from './FunctionTesting.jsx'
+import TestStatesHooks from './TestStatesHooks.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
+    <hr/><TestStatesHooks/>  
     <hr/><App/> 
     <hr/><TestImportExport/>
         <TestImportExport2/>
@@ -20,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     <hr/><VariableTest/>
     <hr/><JsxCurly/>
     <hr/><FunctionTesting/>
+     
     <hr/><Footer/>
   
   </StrictMode>,
