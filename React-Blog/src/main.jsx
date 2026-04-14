@@ -9,10 +9,18 @@ import Footer from './Footer.jsx'
 import JsxCurly from './JsxCurly.jsx'
 import FunctionTesting from './FunctionTesting.jsx'
 import TestStatesHooks from './TestStatesHooks.jsx'
+import HideShow , {NewComponent} from './HideShow.jsx'
+import MultipleCheckRendering from './MultipleCheckRendering'
+import PropTest from './PropsTest'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
     <Header/>
+    <hr/><PropTest/>
+    <hr/><MultipleCheckRendering/>
+    <hr/><NewComponent/> 
+    <hr/><HideShow/>
     <hr/><TestStatesHooks/>  
     <hr/><App/> 
     <hr/><TestImportExport/>
